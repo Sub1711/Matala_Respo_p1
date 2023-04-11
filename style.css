@@ -1,0 +1,177 @@
+#tafrit {
+    font-size: 30px;
+    background-color: rgb(234, 234, 234);
+}
+#logo_tafrit {
+    font-size: 30px;
+    float: left;
+    margin-left: 140px;
+    padding: 18px 10px 0 0;
+}
+.kahol_rashi_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+}
+.kahol_rashi_flex > div {
+    margin:  50px;  
+    font-size: 20px;
+}
+#kahol_tofes_right {
+    margin-right: 70px; 
+    background-color: rgb(63, 161, 235);
+}
+#kahol_text_left > h1, #kahol_text_left > h2, #kahol_text_left > p,
+#kahol_tofes_right > h3, #kahol_tofes_right > form > label { 
+    color: rgb(255, 255, 255);
+}
+form {
+    padding: 0 0 20px 0;
+}
+form > input {
+    width: 200px;
+    margin: 5px 25px 15px 25px;
+}
+input[type=submit] {
+    background-color: rgb(243, 176, 52);
+    padding: 10px 0 10px 0;
+    border-radius: 20px;
+    color: white;
+}
+#kahol_tofes_right > form > label {
+    margin-left: 25px;
+}
+#kahol_tofes_right > h3 {
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+}
+.flex-container > div {
+    margin: 50px 0 0 20px;
+    padding: 30px;
+    font-size: 22px;
+    text-align: center;
+    width: 33%;
+}
+#div_tahton {
+    padding-top: 20px;
+    background-color: rgb(234, 234, 234);
+    text-align: center;
+    font-size: 22px;
+}
+#div_tahton > p {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 10px;
+}
+#call_for_small {
+    display: none;
+    padding: 30px;
+    background-color: rgba(243, 176, 52);
+    border-radius: 25px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+#call_for_small > a {
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    text-decoration: none;
+}
+#p_for_small {
+    display: none;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 602px) {
+    #p_for_small {
+        display: block;
+    }
+    #call_for_small > a {
+        font-size: 20px;
+    }
+    #call_for_small {
+        display: block;
+        padding: 10px;
+        font-size: 20px;
+    } 
+    .flex-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .flex-container > div {
+        width: 100%;
+    }
+    .kahol_rashi_flex {
+        flex-direction: column;
+    }
+    #kahol_tofes_right {
+        margin-top: -55px;
+        margin-right: 50px;
+    } 
+    #kahol_text_left > h1, #kahol_text_left > h2 {
+        text-align: center;
+        font-size: 23px;
+    }
+    #kahol_text_left > p {
+        font-size: 17px;
+    }
+    form > input {
+        width: 295px;
+    }
+    #div_tahton {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    #div_tahton > p {
+        margin-left: 80px;
+        margin-right: 80px;
+        padding-top: 20px;
+    }
+ }
+
+@media only screen and (max-width: 415px) {
+    #tafrit {
+        font-size: 25px;
+        background-color: rgb(234, 234, 234); }
+    #logo_tafrit {
+        font-size: 25px;
+        padding: 14px 10px 0px 15px; }
+    .kahol_rashi_flex > div {
+        font-size: 15px;}
+    form {
+        padding: 0 0 20px 15px;}
+    form > input {
+        width: 240px;
+        margin: 5px 25px 15px 25px; }
+    form > input[type=submit] {
+        margin: 5px 25px 5px 25px; }
+    .kahol_rashi_flex {
+    flex-direction: column;
+    height: 1070px;  }
+    #kahol_tofes_right {
+        margin-right: 55px;
+        width: 320px; }
+    #kahol_tofes_right > h3 {
+        margin: 0px 0px 20px 5px;
+    } 
+    #call_for_small {
+        padding: 10px;
+        background-color: rgba(243, 176, 52);
+        border-radius: 25px;
+        font-size: 20px; }
+    #call_for_small > a {
+        color: white;
+        font-size: 20px; }
+    #div_tahton {
+        font-size: 17px; }
+}
+
+
